@@ -2209,6 +2209,13 @@ input, select, textarea {
 				border-radius: 0;
 			}
 
+/* Image */
+
+    .video {
+        width: 100%;
+        min-height: 300px;
+    }
+
 /* List */
 
 	ol {
@@ -2668,7 +2675,7 @@ input, select, textarea {
 			display: inline-block;
 			padding-right: 2.5em;
 			vertical-align: middle;
-			width: 48%;
+			width: 58%;
 		}
 
 			.features article .image img {
@@ -2679,7 +2686,7 @@ input, select, textarea {
 		.features article .inner {
 			display: inline-block;
 			vertical-align: middle;
-			width: 50%;
+			width: 40%;
 		}
 
 			.features article .inner > :last-child {
