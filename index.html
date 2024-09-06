@@ -18,16 +18,14 @@
     <!-- Header -->
     <section id="header">
         <header>
-            <!-- <span class="image avatar"><img src="images/avatar.jpg" alt="" /></span> -->
             <h1 id="logo"><a href="#">Samuel Macedo</a></h1>
             <p>Software Engineer and Game Developer</p>
         </header>
         <nav id="nav">
             <ul>
                 <li><a href="#one" class="active">About Me</a></li>
-                <li><a href="#two">Skills</a></li>
-                <li><a href="#three">Projects</a></li>
-                <li><a href="#four">Tools</a></li>
+                <li><a href="#two">Projects</a></li>
+                <li><a href="#three">Audio Tools</a></li>
             </ul>
         </nav>
         <footer>
@@ -56,34 +54,45 @@
                     <header class="major">
                         <h2>About Me</h2>
                     </header>
-                    <p>I'm a software engineer with experience in micro-services, web-apps, cloud-servers, games, tools and audio software.
-                        Versatility has been one constant in my career and I'm always looking for new challenges to push myself.
+                    <p>
+                        I'm a software engineer with experience developing applications, microservices, cloud infrastructure, automation
+                        tools, games, and audio software. Versatility has been one constant in my career, and I'm always looking for new
+                        challenges to push myself.
+                    </p>
                 </div>
             </section>
 
             <!-- Two -->
-            <section id="two" class="">
-                <div class="container">
-                    <h3>Skills</h3>
-                    <br />
-                    <ul class="feature-icons">
-                        <li class="icon solid fa-code">C#, C++, Python, Java, Javascript, HTML, CSS</li>
-                        <li class="icon solid fa-cubes">Git, CI/CD, Docker, Unit Testing</li>
-                        <li class="icon solid fa-gamepad">.NET, Unity Engine, XNA Framework</li>
-                        <li class="icon solid fa-cloud">AWS (ECS, EKS, EC2, IAM, Lambda, S3, DynamoDB, CloudFormation, VPC)</li>
-                        <li class="icon solid fa-database">Databases (SQL, MongoDB)</li>
-                        <li class="icon solid fa-users">Scrum, Atlassian Suite (Confluence, Jira)</li>
-                    </ul>
-                </div>
-            </section>
-
-            <!-- Three -->
-            <section id="three">
+            <section id="two">
                 <div class="container">
                     <h3>Projects</h3>
-                    <p>Below is a list of games I have worked on (including both solo and team projects).</p>
+                    <br />
                     <div class="features">
                         <article>
+                            <a class="image" target="_blank"><img src="images/verlet-chain.gif" alt="" /></a>
+                            <div class="inner">
+                                <h4>Rope/Chain Simulator (Unity, C# .NET)</h4>
+                                <p>Ideal for character clothes such as scarves and capes, it uses the verlet integration method. The simulation runs at
+                                    a fixed timestep (with interpolation) and features an override/preset system.
+                                    <br />
+                                    <br />
+                                    <a href="https://github.com/samlletas/verlet-chain-system" target="_blank"><b>Source Code</b></a>
+                                </p>
+                            </div>
+                            </article>
+                            <article>
+                                <a class="image" target="_blank"><img src="images/platformer.gif" alt="" /></a>
+                                <div class="inner">
+                                    <h4>Platformer 2D System (Unity, C# .NET)</h4>
+                                    <p>Collision detection and movement system for 2D platformers. The goal of this project is to provide core functionality
+                                        to help with the creation of custom character controllers.
+                                        <br />
+                                        <br />
+                                        <a href="https://github.com/samlletas/platformer-2d-system" target="_blank"><b>Source Code</b></a>
+                                    </p>
+                                </div>
+                            </article>
+                            <article>
                             <a href="#" class="image">
                                 <iframe class="video" src="https://www.youtube.com/embed/vPEqitCQSpo?si=rU66HuPnIrsR4w9O"
                                     title="YouTube video player" frameborder="0"
@@ -91,9 +100,10 @@
                                     allowfullscreen></iframe>
                             </a>
                             <div class="inner">
-                                <h4>Smashing Crystals (Unity)</h4>
-                                <p>Made for the Unity 2D challenge. The goal
-                                    was to use 2D features such as SpriteShapes and Skeletal Animations.
+                                <h4>Smashing Crystals (Unity, C# .NET)</h4>
+                                <p>Game prototype where the player has to throw magical balls to break crystals. I wrote a
+                                    <a href="https://www.youtube.com/watch?v=CzFtB3faAe4" target="_blank">custom editor tool</a>
+                                    to automatically add grass above the terrain's surface.
                                     <br />
                                     <br />
                                     <b>Worked On: </b> Code, Art, Animation.
@@ -108,44 +118,13 @@
                                     allowfullscreen></iframe>
                             </a>
                             <div class="inner">
-                                <h4>Undead Masher (Unity)</h4>
-                                <p>Mobile game where you had to defend your position from incoming waves of zombies.
+                                <h4>Undead Masher (Unity, C# .NET)</h4>
+                                <p>I worked on this project with a group of 2 artists and an animator. I wrote all of the game's logic, including a
+                                    <a href="https://www.youtube.com/watch?v=mpYQh29DGSk" target="_blank">custom scripting tool</a> that allowed us
+                                    to quickly create new zombie patterns in-game.
                                     <br />
                                     <br />
-                                    <b>Worked On: </b> Code, Animation.
-                                </p>
-                            </div>
-                        </article>
-                        <article>
-                            <a href="#" class="image">
-                                <iframe class="video" src="https://www.youtube.com/embed/vP9d1_iyYR8?si=S1og3L1BhWevq1rh&amp;start=18"
-                                    title="YouTube video player" frameborder="0"
-                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                                    allowfullscreen></iframe>
-                            </a>
-                            <div class="inner">
-                                <h4>Chuta Gol (Unity)</h4>
-                                <p>A mixup of air hockey and soccer, included a tournament mode, a PvP mode (local) and
-                                    2 minigames.
-                                    <br />
-                                    <br />
-                                    <b>Worked On: </b> Code, Animation.
-                                </p>
-                            </div>
-                        </article>
-                        <article>
-                            <a href="#" class="image">
-                                <iframe class="video" src="https://www.youtube.com/embed/WRYABp5wT5g?si=hMS0w87jADgm8Npo&amp;start=6"
-                                    title="YouTube video player" frameborder="0"
-                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                                    allowfullscreen></iframe>
-                            </a>
-                            <div class="inner">
-                                <h4>Megaman Engine (XNA)</h4>
-                                <p>An engine that tries to replicate the classic Megaman games from the NES era but with HD graphics.
-                                    <br />
-                                    <br />
-                                    <b>Worked On: </b> Code, Art, Animation.
+                                    <b>Worked On: </b> Code.
                                 </p>
                             </div>
                         </article>
@@ -153,53 +132,12 @@
                 </div>
             </section>
 
-            <!-- Four -->
-            <section id="four">
+            <!-- Three -->
+            <section id="three">
                 <div class="container">
-                    <h3>Tools</h3>
-                    <p>This section shows some tools I have worked on, mostly focused to gamedev and audio.</p>
+                    <h3>Audio Tools</h3>
+                    <br />
                     <div class="features">
-                        <article>
-                            <a class="image" target="_blank"><img src="images/verlet-chain.gif" alt="" /></a>
-                            <div class="inner">
-                                <h4>Rope/Chain Simulator (Unity)</h4>
-                                <p>Ideal for character clothes such as scarfs and capes, uses the Verlet Integration method,
-                                    the simulation runs at a fixed timestep (with interpolation) and features an override/preset
-                                    system.
-                                    <br />
-                                    <br />
-                                    <a href="https://github.com/samlletas/verlet-chain-system" target="_blank"><b>Source Code</b></a>
-                                </p>
-                            </div>
-                            </article>
-                            <article>
-                            <a class="image" target="_blank"><img src="images/platformer.gif" alt="" /></a>
-                            <div class="inner">
-                                <h4>Platformer 2D System (Unity)</h4>
-                                <p>Collision detection and movement system for 2D platformers, the goal of this
-                                    project is to provide core functionality to help with the creation of custom
-                                    character controllers.
-                                    <br />
-                                    <br />
-                                    <a href="https://github.com/samlletas/platformer-2d-system" target="_blank"><b>Source Code</b></a>
-                                </p>
-                            </div>
-                        </article>
-                        <article>
-                            <a href="#" class="image">
-                                <iframe class="video" src="https://www.youtube.com/embed/mpYQh29DGSk?si=SRBde37kv3Pdqpqh"
-                                    title="YouTube video player" frameborder="0"
-                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                                    allowfullscreen>
-                                </iframe>
-                            </a>
-                            <div class="inner">
-                                <h4>Zombie Pattern Editor (Unity)</h4>
-                                <p>Made for Undead Masher, this editor allowed the game designer to quickly create new
-                                    zombie patterns in-game via a custom scripting language.
-                                </p>
-                            </div>
-                        </article>
                         <article>
                             <a href="https://github.com/samlletas/syxg50-control-panel" class="image" target="_blank"><img src="images/yamaha.gif"
                                     alt=""></a>
@@ -207,8 +145,8 @@
                                 <h4>Yamaha S-YXG50 Control Panel (JSFX)</h4>
                                 <p><a href="https://www.reaper.fm/" target="_blank">Reaper</a> plugin that allows music
                                     producers to control the Yamaha S-YXG50 synthesizer. This is a fork from
-                                    <a href="https://www.kvraudio.com/forum/viewtopic.php?t=486318" target="_blank">Shiru's control panel</a>
-                                    to which I added many new features, UI improvements and bug fixes.
+                                    <a href="https://www.kvraudio.com/forum/viewtopic.php?t=486318" target="_blank">Shiru's control panel.</a>
+                                    I added many new features, UI improvements, and bug fixes.
                                     <br />
                                     <br />
                                     <a href="https://github.com/samlletas/syxg50-control-panel" target="_blank"><b>Source Code</b></a>
@@ -216,13 +154,27 @@
                             </div>
                         </article>
                         <article>
-                            <a href="https://github.com/samlletas/dmw-converter" class="image" target="_blank"><img src="images/dmw.png"
+                            <a href="https://github.com/samlletas/reaper-tools" class="image" target="_blank"><img src="images/reaper-tools.png"
                                     alt=""></a>
                             <div class="inner">
-                                <h4>DMW Converter (.NET)</h4>
+                                <h4>Reaper Tools (JSFX, Lua)</h4>
                                 <p>
-                                    Command line tool to convert <a href="https://www.deflemask.com/" target="_blank">DefleMask's</a> binary
-                                    wavetable files (.dmw) to human readable text files.
+                                    Collection of customized effects and scripts for <a href="https://www.reaper.fm/" target="_blank">Reaper</a>.
+                                    Including an improved MIDI arpeggiator and multiple Lua scripts that enhance the user's workflow.
+                                    <br />
+                                    <br />
+                                    <a href="https://github.com/samlletas/reaper-tools" target="_blank"><b>Source Code</b></a>
+                                </p>
+                                </div>
+                                </article>
+                                <article>
+                                    <a href="https://github.com/samlletas/dmw-converter" class="image" target="_blank"><img src="images/dmw.png"
+                                            alt=""></a>
+                                    <div class="inner">
+                                <h4>DMW Converter (C# .NET)</h4>
+                                <p>
+                                    Command-line tool to convert <a href="https://www.deflemask.com/" target="_blank">DefleMask's</a> binary
+                                    wavetable files (.dmw) to human-readable text files.
                                     <br />
                                     <br />
                                     <a href="https://github.com/samlletas/dmw-converter" target="_blank"><b>Source Code</b></a>
